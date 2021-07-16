@@ -1,17 +1,18 @@
 *{
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	box-sizing: border-box;
 	text-decoration: none;
 	font-family: sans-serif;
 	font-size: ;
+	max-width: 1024px;
 }
 
 body{
 	width: 100%;
 	color: #3d3d3d;
 	min-height: 100vh;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	display: flex;
 	justify-content: center;
@@ -24,6 +25,7 @@ body{
 	position: fixed;
 	background-color: #fff;
 	border-bottom: 1px solid gray;
+	margin: ;
 }
 .topo .header{
 	display: flex;
@@ -36,14 +38,19 @@ body{
 	padding: 0 10px;
 }
 
-.link-topo{
+.header>a{
+	font-size: 23px;
+}
+
+.linktopo{ /*estiliza os links do menu*/
 	text-transform: uppercase;
 	line-height: 18px;
 	padding: 0px 15px 10px 15px;
 	color: #3d3d3d;
+	margin: 0;
 }
 
-.titulo-conteudo{
+.titulo-conteudo{ /*coloca imagem de fundo e ajusta o background*/
 	background-image: url(assets/img-fundo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -54,22 +61,84 @@ body{
 	align-items: center;
 }
 
-.titulo-descricao{
+.titulo-descricao{ /*muda o estilo do titulo*/
 	color: #fff;
 	font-size: 25px;
-	background-color: #0a9077b3;
+	background-color: #0a9077b9;
 	border: 1px solid;
-	padding: 0 20px;
-	border-radius: 4px;
+	padding: 30px 20px;
+	border-radius: 10px;
 	text-align: center;
 }
 
-.quarto{
+.quartos{
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	margin-right: 30px;
-	padding-bottom: 20px;
-	border-bottom: 2px solid#00836a;
-	color: #3d3d3d;
 }
 
+.quarto{
+	margin-right: 30px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #00836a;
+	color: #3d3d3d;*/
+}
+
+.quarto a {
+	color: #333;
+}
+
+.quarto a p{
+	text-align: center;
+}
+
+.quarto:last-child{
+	margin: 0;
+}
+
+.welcome { /*alinhando os testos da seção bem vindo*/
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
+.welcome h2{
+	font-size: 32px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.container-sobre{
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
+img {
+	width: 100%;
+}
+
+.descricoes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.descricao{
+	display: flex;
+	width: 45%;
+	margin: 0 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.descricao-img{
+	width: 100px;
+	height: 113px;
+	object-fit: cover;
+	margin-left: 10px;
+}
+ .pousada{
+ 	
+ }
