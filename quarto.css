@@ -119,12 +119,14 @@ body{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+    
 }
 
 .contatos{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+
 }
  .container-contato img{
 	 width: 30px;
