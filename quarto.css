@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ img{
+     width: 100%;
+ }
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    color: #3d3d3d;
+    min-height: 100vh;
+    padding: 0;
+    max-width: 1024px;
+    background-color: #fff;
+}
+
+.container-header2 {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 auto;
+ background-color: orange;
+ padding: 10px;
+ border-radius: 5px;
+ width: 100%;
+}
+
+.container-header2 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.container-header2>a {
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    text-transform: uppercase;
+}
+
+.img-background{
+    background-image: url(./assets/img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    border-radius: 5px;
+
+}
+
+
+.quarto-solteiro{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+
+}
+
+.titulo-solteiro{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.imgs-solteiro{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid orange;
+}
+
+.img-solteiro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+.img-sol{
+    width: 330px;
+    height: 200px;
+}
+
+.container-lista h3{
+    text-align: center;
+    padding: 10px;
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.rodape{
+	/* display: flex;
+	 color: #333;*/
+	 background-color: orange;
+	 text-align: center;
+	 padding-top: 10px;
+	/* flex-direction: column;*/
+	 
+ }
+
+ .contatos a {
+     color: #fff;
+ }
+ 
+.container-contato{
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.contatos{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ .container-contato img{
+	 width: 30px;
+	 margin-right: 10px;
+ }
+
+ .container-contato a {
+	 color: #333;
+	 font-weight: 600;
+ }
+
